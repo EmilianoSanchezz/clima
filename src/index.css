@@ -1,0 +1,210 @@
+*{
+  padding: 0;
+  margin: 0;
+  background-color: #113b11;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.header{
+  width: 80%;
+  max-width: 800px;
+  height: 50px;
+  display: flex;
+  margin: auto;
+  margin-top: 5px;
+  border-radius: 30px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 15px rgb(0, 0, 2);
+  color: white;
+}
+
+
+
+
+
+
+.navegador ul{
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin-right: 3rem;
+ 
+}
+
+
+
+/* componente climaaa*/
+.clima{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 75%;
+  background-color: transparent;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.clima p{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: rgba(255, 255, 255, 0.699);
+}
+
+.btnAgregar{
+  width: 60px;
+  height: auto;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px rgb(0, 0, 2);
+  background-color: rgba(255, 255, 255, 0.089);
+  font-size: 3rem;
+  cursor: pointer;
+  margin-bottom: 50px;
+
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.514); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content{
+  background-color: #113b11;
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%;
+  height: 40%;
+  text-align: center;
+  box-shadow: 5px 5px 15px rgb(0, 0, 2);
+}
+
+.modal-content h2{
+  margin-top: 20px;
+}
+
+.modal-content p{
+  color: rgba(255, 255, 255, 0.733);
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.modal-content input{
+  width: 60%;
+  height: 30px;
+  border: none;
+  background-color: #1c5e1c;
+  box-shadow: 5px 5px 15px rgb(0, 0, 2);
+  display: flex;
+  margin: auto;
+
+}
+
+
+.modal-content button{
+  display: flex;
+  margin: auto;
+  margin-top: 30%;
+  width: 30%;
+  height: 15%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  border: none;
+  box-shadow: 5px 5px 15px rgb(0, 0, 2);
+  background-color: #113b11;
+  cursor: pointer;
+}
+
+
+.flotante{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+
+
+.tarjetaClima{
+  margin: auto;
+  width: 65%;
+  height: auto;
+ 
+  padding: 10px;
+  max-width: 600px;
+  color: brown;
+  border: 1px solid rgba(255, 255, 255, 0.705);
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgb(0, 0, 2);
+  margin-bottom: 100px;
+  background-color: rgba(255, 255, 255, 0.089) ;
+}
+.h2Clima{
+  text-align: center;
+  background-color: transparent;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  max-width: 70%;
+  margin: auto;
+  
+}
+
+.tarjetaClima img{
+  background-color: transparent;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.tarjetaClima p{
+  background-color: transparent;
+
+  
+}
+
+.imgClima{
+  background-color: transparent;
+}
+.loading{
+  display: flex;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.datos{
+  background-color: transparent;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  gap: 20px;
+
+}
+
+.grupo{
+  background-color: transparent;
+}
+.grupo span{
+  background-color: transparent;
+}
+
+
+
+
